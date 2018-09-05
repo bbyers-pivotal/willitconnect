@@ -13,4 +13,9 @@ jobs:
     - task: checkmarx
       file: git-repo/ci/tasks/checkmarx.yml
       params:
+        host: ((host))
+        username: ((username))
         password: ((password))
+        project: ((project))
+        locationType: ((locationType))
+        locationpath: ((locationpath
