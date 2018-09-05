@@ -14,8 +14,4 @@ run:
   path: git-repo/ci/tasks/checkmarx.sh
 
 params:
-<<<<<<< HEAD
   password: ((password))
-=======
-  PASSWORD: ((password))
->>>>>>> 5ffe6f0f3d892e402ec1ee8306e199af6ea34e2f
