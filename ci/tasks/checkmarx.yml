@@ -19,9 +19,4 @@ params:
   password: ((password))
   project: ((project))
   locationType: ((locationType))
-  locationpath: ((locationpath))
-
-
-
-
-#/checkmarx/runCxConsole.sh Scan -v -CxServer <host> -projectName <projectName> -CxUser <username> -CxPassword <password> -Locationtype <Locationtype> -locationpath <locationpath> -Preset <preset> -EnableOsa -OsaLocationPath <filename>
+  locationPath: ((locationPath))
