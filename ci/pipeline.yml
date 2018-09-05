@@ -12,3 +12,5 @@ jobs:
       trigger: true
     - task: checkmarx
       file: git-repo/ci/tasks/checkmarx.yml
+      params:
+        password: ((password))
