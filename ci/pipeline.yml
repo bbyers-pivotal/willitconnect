@@ -18,4 +18,4 @@ jobs:
         password: ((password))
         project: ((project))
         locationType: ((locationType))
-        locationpath: ((locationpath
+        locationpath: ((locationpath))
