@@ -1,0 +1,14 @@
+resources:
+- name: git-repo
+  type: git
+  source:
+    uri: https://github.com/bbyers-pivotal/willitconnect.git
+    branch: master
+
+jobs:
+  - name: checkmarx
+    plan:
+    - get: git-repo
+      trigger: true
+    - task: checkmarx
+      file: git-repo/ci/tasks/checkmarx.yml
